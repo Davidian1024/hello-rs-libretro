@@ -14,13 +14,20 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
+//! A minimal [libretro](https://www.libretro.com/) core written in Rust.
+//!
+//! This crate serves as a hello world example and developer reference for
+//! writing libretro cores in Rust without wrapper crates. See the
+//! [README](https://github.com/Davidian1024/hello-rs-libretro) for full
+//! documentation including hard-won lessons and deployment instructions.
+
 use std::sync::Mutex;
 
 use crate::core::HelloCore;
 
-mod core;
-mod libretro;
-mod types;
+pub mod core;
+pub mod libretro;
+pub mod types;
 
 /// The single global instance of the core.
 ///
