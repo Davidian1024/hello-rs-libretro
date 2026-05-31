@@ -1,0 +1,14 @@
+[package]
+name = "hello-rs-libretro"
+version = "0.1.0"
+edition = "2024"
+description = "A minimal hello world libretro core written in Rust"
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/Davidian1024/hello-rs-libretro"
+keywords = ["libretro", "retroarch", "emulation", "gamedev"]
+categories = ["emulators", "game-development"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]

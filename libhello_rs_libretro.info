@@ -1,0 +1,9 @@
+# hello-rs-libretro core info file
+display_name = "Hello RS Libretro"
+categories = "Other"
+authors = "David Brinovec"
+corename = "hello-rs-libretro"
+supported_extensions = ""
+license = "AGPLv3"
+display_version = "0.1.0"
+supports_no_game = "true"
